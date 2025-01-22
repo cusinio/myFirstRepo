@@ -1,0 +1,148 @@
+SUB-GOAL 1:CV HEADER
+
+I am UX Researcher/Designer at TU Delft
+I can program in Python and javascript. I love coffee and learning new skills.
+
+-----------------------------------------------------------------------------
+
+
+SUB-GOAL 2: Add Your soft skills
+1. Problem solver
+2. Detail oriented
+3. Hard worker
+
+-----------------------------------------------------------------------------
+
+SUB-GOAL 3: Add a Profile Image
+
+<img src="Tahir.jpeg" alt="Tahir Abbas profile picture",width="200" height="200" >
+
+-----------------------------------------------------------------------------
+
+Sub-GOAL 4: Adding links
+
+  <p>You can reach Tahir at:</p>
+
+            <ul>
+                <li><a href="https://www.wis.ewi.tudelft.nl/abbas">Website</a></li>
+                <li><a href="mailto:T.abbas-1@tudelft.nl">Email</a></li>
+                <li><a href="tel:+3156546456">Phone</a></li>
+            </ul>
+
+
+------------------------------------------------------------------------------
+
+SUB-GOAL 5: Tables
+
+<h3>Technical Skills</h3>
+
+
+<table cellspacing = "10">
+    <tr>
+        <td><table>
+
+            <tr>
+                <td>Java</td> <td>⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Python</td> <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>NodeJs</td> <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+        </table></td>
+
+        <td>
+            <table>
+
+                <tr>
+                    <td>C#</td> <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Balsamiq</td> <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>SPSS</td> <td>⭐⭐⭐⭐</td>
+                </tr>
+            </table> 
+        </td>
+    </tr>
+</table>
+
+-----------------------------------------------------------
+
+Sub-goal 6: adding forms
+
+<form action="mailto: tahir.abbas.80@gmail.com" method="post" enctype="text/plain">
+
+   <label for="">Your Name: </label> 
+   <input type="text" name="name"> <br>
+    
+   <label for="">Your Email: </label> 
+   <input type="email" name="email"> <br>
+
+   <label for="">Your Message: </label>
+   <textarea name="message" id="" cols="30" rows="10"></textarea> <br>
+ 
+   <input type="submit" value="Submit">
+  </form>
+
+
+
+Sub-goal 7: Adding style
+POINT#1:
+body {
+    background-color: #EAFDFC;
+}
+
+POINT#2: 
+hr {
+border-style: dotted none none;
+width: 30%;
+border-width: 5px;
+
+POINT#2:     
+}
+apply the concept of ID to the paragraph tag using this
+
+#bio {
+ text-align: center;
+  color: red;
+}
+POINT#2: 
+apply the concept of class by changing the background color of
+headings
+
+.cv-sub-heading {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+POINT#2: 
+img {
+    border-radius: 100%;
+}
+
+POINT#2: 
+/* for unordered list */
+.nav-bar {
+    list-style-type: none;
+}
+
+/* for list items */
+.nav-item {
+    display: inline;
+}
+
+/* apply to each item */
+.nav-bg {
+    background-color: rgb(202, 195, 195);
+}
+
+/* apply to the anchor tag */
+.rem-underline {
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,71 @@
+body {
+    background-color: #EAFDFC;
+}
+
+hr {
+    /* height:10px; */
+    /* background-color: white; */
+    /* border-style: dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right:none; */
+
+    border-style: dotted none none none;
+    width: 30%;
+    border-width: 5px;
+    
+}
+
+h1 {
+
+   color: #332FD0; 
+}
+
+h3 {
+    color: #4B56D2; 
+}
+#bio {
+ text-align: center;
+  color: red;
+}
+
+.cv-sub-heading {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    /* display: block; */
+    padding:2%;
+}
+
+img {
+    border-radius: 100%;
+}
+
+/* for unordered list */
+.nav-bar {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* for list items */
+.nav-item {
+    display: inline;
+}
+
+/* apply to each item */
+.nav-bg {
+    background-color: rgb(202, 195, 195);
+}
+
+/* apply to the anchor tag */
+.rem-underline {
+  text-decoration: none;
+}
+
+
+
+
+
+
+  

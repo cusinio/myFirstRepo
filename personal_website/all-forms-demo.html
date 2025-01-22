@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>HTML forms demo</title>
+</head>
+<body>
+
+    <!-- https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet -->
+
+
+<form action="mailto:tahir.abbas.80@gmail.com", method="post">
+
+
+    <h1>Check-Box</h1>
+    <input type="checkbox" name="breakfast" value="bacon">Bacon 🥓<br>
+    <input type="checkbox" name="breakfast" value="eggs">Eggs 🍳<br>
+    <input type="checkbox" name="breakfast" value="pancakes">Pancakes 🥞<br>
+    
+    <hr>
+    
+    <h1>Radio buttons</h1>
+    
+    <label for="pickup">Pickup</label> <input name="delivery_option" type="radio" value="pickup" /> <br>
+    <label for="Delivery">Delivery</label> <input name="delivery_option" type="radio" value="delivery" />
+    
+    <hr>
+    
+    <h1>Textarea</h1>
+    
+    <textarea rows="10" cols="30" name="comment"></textarea>
+    
+    
+    <hr>
+    <h1>Number Type</h1>
+    
+    <input type="number" name="balance" /> <br> <br>
+
+  <hr>
+    <h1>Range Type</h1>
+
+    <input type="range" name="movie-rating" min="0" max="10" step="1">  <br>
+
+
+
+    <h1>Select or dropdown</h1>
+
+    <select name="rental-option">
+        <option value="small">Small</option>
+        <option value="family">Family Sedan</option>
+        <option value="lux">Luxury</option>
+    </select>
+
+    <hr>
+
+    <h1>data list</h1>
+
+    <p>The datalist tag is used to provide an "autocomplete" feature for input elements. Users will see a drop-down list of pre-defined options as they input data.</p> <br>
+
+    <input list="ide" name = "datalist">
+  
+    <datalist id="ide">
+    <option value="Visual Studio Code" />
+    <option value="Atom" />
+    <option value="Sublime Text" />
+    </datalist>
+
+
+    <hr>
+
+
+    <h1>Password Type</h1>
+
+
+
+<label for="">Your Password: </label><input type="password" name="password" />
+
+
+
+<br>
+   <input type="submit" value="Submit">
+
+
+</form>
+   
+
+
+
+
+
+
+
+</body>
+</html>
