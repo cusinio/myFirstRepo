@@ -2,6 +2,9 @@ body {
     background-color: #EAFDFC;
 }
 
+* {
+    background-color:pink;
+}
 hr {
     /* height:10px; */
     /* background-color: white; */
